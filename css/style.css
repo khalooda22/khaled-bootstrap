@@ -1,0 +1,80 @@
+:root{
+    --main-color: #30c8d5;
+
+}
+.navbar{
+    background-color: var(--main-color);
+}
+.navbar-nav .nav-item .nav-link:not(.active){
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: yellow;
+}
+header, .work, .creative, 
+.services, .client {
+    background-position: center;
+    background-size: cover;
+
+} 
+header{
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(../images/header.jpeg);
+    
+}
+.work{
+    min-height: 30vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(../images/counter.jpg);
+    
+}
+.creative{
+    min-height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(../images/message.jpg);
+    
+}
+.services{
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(../images/service.jpg);
+    
+}
+.client{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(../images/clients.jpg);
+    
+}
+.icons .i-one{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.main-h2,.i-three,.icons{
+    color: var(--main-color);
+}
+.i-two{
+    background-color: var(--main-color);
+    border-radius: 100%;
+}
+.portfolio{
+    background-color: #ededed;
+}
+.services .card{
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+}
+.p-btn{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    color: white;
+}
+::placeholder{
+    text-align: center;
+}
+footer{
+    background-color: #157c85;
+}
